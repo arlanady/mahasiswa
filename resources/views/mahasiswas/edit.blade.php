@@ -42,6 +42,14 @@
         <label for="No_Handphone">No_Handphone</label>
         <input type="No_Handphone" name="No_Handphone" class="form-control" id="No_Handphone" value="{{$Mahasiswa->No_Handphone}}" aria-describedby="No_Handphone">
     </div>
+    <div class="form-group">
+        <label for="E_mail">E_mail</label>
+        <input type="E_mail" name="E_mail" class="form-control" id="E_mail" value="{{$Mahasiswa->E_mail}}" aria-describedby="E_mail">
+    </div>
+    <div class="form-group">
+        <label for="Tanggal_Lahir">Tanggal_Lahir</label>
+        <input type="Tanggal_Lahir" name="Tanggal_Lahir" class="form-control" id="Tanggal_Lahir" value="{{$Mahasiswa->Tanggal_Lahir}}" aria-describedby="Tanggal_Lahir">
+    </div>
     <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>
